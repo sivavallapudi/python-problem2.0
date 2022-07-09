@@ -1,0 +1,9 @@
+n=input
+a=[]
+for i in n:
+ if i.isdigit()
+     a.append(i)
+f=set(a)
+f=list(f)
+f.sort()
+print(*f)
