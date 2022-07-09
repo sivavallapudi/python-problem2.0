@@ -1,0 +1,11 @@
+n=input()
+a=[]
+b=[]
+for i in n:
+    if i.isalpha():
+        a.append(i)
+print(a)
+for letters in a:
+    if letters not in b:
+        b.append(letters)
+print(b)
